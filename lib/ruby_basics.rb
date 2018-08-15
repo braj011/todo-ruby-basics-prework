@@ -16,11 +16,15 @@ def greeting(greeting, name)
 end
 
 
-
-
 def return_a_value
 
 end
+
+describe '#return_a_value' do
+    it 'returns the phrase "Nice"' do
+      expect(return_a_value).to eq("Nice")
+    end
+  end
 
 def last_evaluated_value
 
