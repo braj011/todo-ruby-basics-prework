@@ -17,20 +17,6 @@ end
 
 
 
-  describe '#greeting' do
-    it 'takes two arguments' do
-      greeting = "Hi there, "
-      name = "Bobby!"
-
-      expect{ greeting(greeting, name) }.to_not raise_error
-    end
-
-    it 'raises an error with one argument' do
-      greeting = "Hi there, "
-
-      expect{ greeting(greeting)}.to raise_error
-    end
-  end
 
 def return_a_value
 
