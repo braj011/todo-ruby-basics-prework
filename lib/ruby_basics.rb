@@ -17,14 +17,11 @@ end
 
 
 def return_a_value
+  return "Nice"
 
 end
 
-describe '#return_a_value' do
-    it 'returns the phrase "Nice"' do
-      expect(return_a_value).to eq("Nice")
-    end
-  end
+
 
 def last_evaluated_value
 
